@@ -9,13 +9,12 @@
     "link": "https://luminaspark.vercel.app/"
   },
   {
-    "category": "Civic Intelligence & Social Impact",
-    "title": "CivicFlow – AI-Powered Civic Coordination",
-    "challenge": "NGOs struggle with unstructured field reports, delayed issue prioritization, and inefficient volunteer coordination during critical civic problems.",
-    "solution": "An AI-powered platform that transforms field reports into actionable insights using Gemini, prioritizes issues by urgency, and connects volunteers through smart coordination.",
-    "techStack": ["Next.js", "TypeScript", "Gemini API", "Supabase", "Cloud Run"],
-    "image": "projects/project2.png",
-    "link": "https://civicflow-21198812855.asia-south1.run.app"
+    "category": "AI in Education / Conversational AI",
+    "title": "Lumina 2.0 – Conversational AI Assistant",
+    "challenge": "Students face difficulty getting instant clarification tailored to their syllabus, while general AI provides generic responses that don't align with their curriculum.",
+    "solution": "A conversational AI assistant where students interact through natural language to receive syllabus-oriented responses based on institutional learning resources.",
+    "techStack": ["Python", "FastAPI", "React", "Firebase", "LLaMA 3", "Gemini API"],
+    "image": "projects/project2.png"
   },
   {
     "category": "FinTech AI / Credit Risk Analytics",
