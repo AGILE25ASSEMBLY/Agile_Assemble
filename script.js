@@ -136,7 +136,62 @@ document.addEventListener('DOMContentLoaded', () => {
         
         statsObserver.observe(heroSection);
     }
-    // 6. Load Team Members from team.json
+
+    // 6. Load Projects from projects.json
+    const projectsGrid = document.getElementById('projects-grid');
+
+    if (projectsGrid) {
+        fetch('projects.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to load projects data');
+                return response.json();
+            })
+            .then(projects => {
+                projectsGrid.innerHTML = projects.map((project, index) => {
+                    const stackHTML = project.techStack
+                        .map(tech => `<span class="stack-tag">${tech}</span>`)
+                        .join('');
+
+                    const imageHTML = project.image
+                        ? `<img src="${project.image}" alt="${project.title}" class="project-preview-img">`
+                        : `<div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, var(--depth-violet), var(--surface-elevated)); opacity: 0.8;">
+                               <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                           </div>`;
+
+                    const linkHTML = project.link
+                        ? `<a href="${project.link}" target="_blank" rel="noopener noreferrer" class="project-link">
+                               <span>View Live Project</span>
+                               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                           </a>`
+                        : '';
+
+                    return `
+                        <div class="glass-card project-card" style="animation-delay: ${index * 0.15}s;">
+                            <div class="project-img">
+                                ${imageHTML}
+                            </div>
+                            <div class="project-content">
+                                <span class="project-category">${project.category}</span>
+                                <h3 class="mb-1">${project.title}</h3>
+                                <p class="mb-2" style="font-size: 0.95rem; color: var(--text-primary);"><strong>Challenge:</strong> ${project.challenge}</p>
+                                <p style="font-size: 0.95rem;"><strong>Solution:</strong> ${project.solution}</p>
+                                <div class="project-stack">${stackHTML}</div>
+                                ${linkHTML}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                // Re-observe for reveal animation
+                revealObserver.observe(projectsGrid);
+            })
+            .catch(error => {
+                console.warn('Projects data could not be loaded:', error);
+                projectsGrid.innerHTML = '<p style="text-align: center; color: var(--text-muted);">Project information is being updated. Check back soon.</p>';
+            });
+    }
+
+    // 7. Load Team Members from team.json
     const teamGrid = document.getElementById('team-grid');
 
     if (teamGrid) {

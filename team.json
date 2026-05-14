@@ -2,63 +2,63 @@
   {
     "name": "Harshal V T",
     "designation": "DevOps Engineer",
-    "skills": ["AWS", "Docker", "CI/CD Pipelines"],
+    "skills": ["AWS", "Docker", "CI/CD Pipelines", "Neo4j", "Claude"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/1 Harshal.png"
   },
   {
     "name": "Krishna Kumar N",
     "designation": "Frontend Engineer",
-    "skills": ["React.js", "Next.js", "Tailwind CSS"],
+    "skills": ["React.js", "Next.js", "Tailwind CSS", "Canva", "Gamma"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/2 krishna.jpg"
   },
   {
     "name": "Janarthanan V",
     "designation": "Backend Engineer",
-    "skills": ["Node.js", "Express.js", "Database Architecture"],
+    "skills": ["Node.js", "Express.js", "Database Architecture", "MongoDB", "PostgreSQL"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/3 jana.jpg"
   },
   {
     "name": "Harish Kumar S P",
     "designation": "Full Stack Web Developer",
-    "skills": ["MERN Stack", "REST APIs", "React"],
+    "skills": ["MERN Stack", "REST APIs", "React", "MongoDB", "Firebase"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/4 Harish.jpeg"
   },
   {
     "name": "Akshaya S",
     "designation": "App Developer",
-    "skills": ["Flutter", "React Native", "Mobile UI"],
+    "skills": ["Flutter", "React Native", "Mobile UI", "Android", "iOS"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/5 Akshaya.jpg"
   },
   {
     "name": "Suvetha E",
     "designation": "AI / ML Engineer",
-    "skills": ["Python", "Machine Learning", "Deep Learning"],
+    "skills": ["Python", "Machine Learning", "Deep Learning", "Neo4j", "LangChain"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/6 Suvetha.jpg"
   },
   {
     "name": "Adarsh G",
-    "designation": "UI/UX Designer",
-    "skills": ["Figma", "UI/UX Strategy", "Prototyping"],
+    "designation": "Database Engineer",
+    "skills": ["PostgreSQL", "SQLite", "Hive", "Scala", "Database Architecture"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/7 Adarsh.png"
   },
   {
     "name": "Yashwanth N V",
     "designation": "Data Analyst",
-    "skills": ["Data Visualization", "SQL", "Python"],
+    "skills": ["Data Visualization", "SQL", "Python", "Neo4j", "Antigravity"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/8 Yashwanth.jpeg"
   },
   {
     "name": "Layasree S",
     "designation": "Cloud Architect",
-    "skills": ["AWS & Azure", "Kubernetes", "Microservices"],
+    "skills": ["AWS & Azure", "Kubernetes", "Microservices", "MongoDB", "GPT-4"],
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/9 Layasree S.jpg"
   },

@@ -200,49 +200,8 @@
                     <span class="section-label">Case Studies</span>
                     <h2>Featured Projects</h2>
                 </div>
-                <div class="grid-2">
-                    <!-- Project 1 -->
-                    <div class="glass-card project-card reveal">
-                        <div class="project-img">
-                            <!-- Visual Preview Placeholder -->
-                            <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, var(--depth-violet), var(--surface-elevated)); opacity: 0.8;">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <span class="project-category">Healthcare AI</span>
-                            <h3 class="mb-1">Predictive Diagnostic Platform</h3>
-                            <p class="mb-2" style="font-size: 0.95rem; color: var(--text-primary);"><strong>Challenge:</strong> Processing unstructured medical data efficiently.</p>
-                            <p style="font-size: 0.95rem;"><strong>Solution:</strong> An AI-powered pipeline that analyzes patient histories to highlight risk factors, reducing review time by 40%.</p>
-                            <div class="project-stack">
-                                <span class="stack-tag">Python</span>
-                                <span class="stack-tag">TensorFlow</span>
-                                <span class="stack-tag">React</span>
-                                <span class="stack-tag">AWS</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 2 -->
-                    <div class="glass-card project-card reveal" style="transition-delay: 0.2s;">
-                        <div class="project-img">
-                            <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, var(--depth-blue), var(--surface-velvet)); opacity: 0.8;">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <span class="project-category">Enterprise SaaS</span>
-                            <h3 class="mb-1">Global Logistics Dashboard</h3>
-                            <p class="mb-2" style="font-size: 0.95rem; color: var(--text-primary);"><strong>Challenge:</strong> Real-time tracking across fragmented supply chains.</p>
-                            <p style="font-size: 0.95rem;"><strong>Solution:</strong> A scalable Next.js dashboard integrating 5 different API providers to offer unified, real-time fleet visibility.</p>
-                            <div class="project-stack">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Node.js</span>
-                                <span class="stack-tag">PostgreSQL</span>
-                                <span class="stack-tag">Docker</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="projects-grid reveal" id="projects-grid">
+                    <!-- Projects loaded dynamically from projects.json -->
                 </div>
             </div>
         </section>

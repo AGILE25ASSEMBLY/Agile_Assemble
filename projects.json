@@ -1,0 +1,29 @@
+[
+  {
+    "category": "AI in Education / EdTech SaaS",
+    "title": "Lumina 2.0 – AI-Based Academic Assistant",
+    "challenge": "General AI tools provide broad academic answers that aren't aligned with institutional syllabus, faculty materials, or exam-oriented preparation.",
+    "solution": "A RAG-based academic assistant that uses institutional notes, question banks, and faculty resources to generate syllabus-aligned, exam-oriented answers.",
+    "techStack": ["Python", "FastAPI", "React", "Gemini API"],
+    "image": "projects/project1.png",
+    "link": "https://luminaspark.vercel.app/"
+  },
+  {
+    "category": "Civic Intelligence & Social Impact",
+    "title": "CivicFlow – AI-Powered Civic Coordination",
+    "challenge": "NGOs struggle with unstructured field reports, delayed issue prioritization, and inefficient volunteer coordination during critical civic problems.",
+    "solution": "An AI-powered platform that transforms field reports into actionable insights using Gemini, prioritizes issues by urgency, and connects volunteers through smart coordination.",
+    "techStack": ["Next.js", "TypeScript", "Gemini API", "Supabase", "Cloud Run"],
+    "image": "projects/project2.png",
+    "link": "https://civicflow-21198812855.asia-south1.run.app"
+  },
+  {
+    "category": "FinTech AI / Credit Risk Analytics",
+    "title": "Credit Risk Compass – AI Risk Analysis",
+    "challenge": "Financial institutions need fast, reliable creditworthiness assessment. Traditional methods are slow, less interactive, and hard for non-technical users to interpret.",
+    "solution": "An AI-powered credit risk platform with an interactive dashboard that predicts borrower risk levels using ML models, real-time assessment, and explainable financial insights.",
+    "techStack": ["Python", "Streamlit", "Scikit-learn", "Pandas", "Plotly"],
+    "image": "projects/project3.png",
+    "link": "https://credit-risk-compass-harshal-web-app.streamlit.app/"
+  }
+]
