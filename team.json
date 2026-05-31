@@ -21,11 +21,18 @@
     "photo": "photos/3 jana.jpg"
   },
   {
-    "name": "Harish Kumar S P",
-    "designation": "Full Stack Web Developer",
-    "skills": ["MERN Stack", "REST APIs", "React", "MongoDB", "Firebase"],
+    "name": "Suvetha E",
+    "designation": "AI / ML Engineer",
+    "skills": ["Python", "Machine Learning", "Deep Learning", "Neo4j", "LangChain"],
     "linkedin": "https://linkedin.com/in/",
-    "photo": "photos/4 Harish.jpeg"
+    "photo": "photos/6 Suvetha.jpg"
+  },
+  {
+    "name": "Layasree S",
+    "designation": "Cloud Architect",
+    "skills": ["AWS & Azure", "Kubernetes", "Microservices", "MongoDB", "GPT-4"],
+    "linkedin": "https://linkedin.com/in/",
+    "photo": "photos/9 Layasree S.jpg"
   },
   {
     "name": "Akshaya S",
@@ -35,11 +42,11 @@
     "photo": "photos/5 Akshaya.jpg"
   },
   {
-    "name": "Suvetha E",
-    "designation": "AI / ML Engineer",
-    "skills": ["Python", "Machine Learning", "Deep Learning", "Neo4j", "LangChain"],
+    "name": "Harish Kumar S P",
+    "designation": "Full Stack Web Developer",
+    "skills": ["MERN Stack", "REST APIs", "React", "MongoDB", "Firebase"],
     "linkedin": "https://linkedin.com/in/",
-    "photo": "photos/6 Suvetha.jpg"
+    "photo": "photos/4 Harish.jpeg"
   },
   {
     "name": "Adarsh G",
@@ -56,11 +63,39 @@
     "photo": "photos/8 Yashwanth.jpeg"
   },
   {
-    "name": "Layasree S",
-    "designation": "Cloud Architect",
-    "skills": ["AWS & Azure", "Kubernetes", "Microservices", "MongoDB", "GPT-4"],
-    "linkedin": "https://linkedin.com/in/",
-    "photo": "photos/9 Layasree S.jpg"
+    "name": "Subash K",
+    "designation": "Full-Stack Developer",
+    "skills": ["React", "MySQL", "Supabase", "AntiGravity", "Java"],
+    "linkedin": "https://www.linkedin.com/in/subashk41016220503/",
+    "photo": "photos/Subash K.jpeg"
+  },
+  {
+    "name": "Harish Raghavendera V",
+    "designation": "Full-Stack Developer",
+    "skills": ["React", "MySQL", "Supabase", "AntiGravity", "Java"],
+    "linkedin": "",
+    "photo": ""
+  },
+  {
+    "name": "Michelle Susan Ezhilarasi CS",
+    "designation": "UI/UX & Frontend Developer",
+    "skills": ["AntiGravity", "UI/UX", "Gemini AI", "Firebase", "MongoDB"],
+    "linkedin": "https://www.linkedin.com/in/susan0096",
+    "photo": "photos/Michelle Susan.png"
+  },
+  {
+    "name": "Ranjitha V",
+    "designation": "GenAI Solutions Engineer",
+    "skills": ["Java", "C", "OOPS", "Python", "RAG"],
+    "linkedin": "https://www.linkedin.com/in/ranjitha-v-913957375",
+    "photo": "photos/Ranjitha V.jpeg"
+  },
+  {
+    "name": "Priyadharshini K",
+    "designation": "",
+    "skills": [],
+    "linkedin": "",
+    "photo": ""
   },
   {
     "name": "Vishwa",

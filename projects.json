@@ -9,14 +9,6 @@
     "link": "https://luminaspark.vercel.app/"
   },
   {
-    "category": "AI in Education / Conversational AI",
-    "title": "Lumina 2.0 – Conversational AI Assistant",
-    "challenge": "Students face difficulty getting instant clarification tailored to their syllabus, while general AI provides generic responses that don't align with their curriculum.",
-    "solution": "A conversational AI assistant where students interact through natural language to receive syllabus-oriented responses based on institutional learning resources.",
-    "techStack": ["Python", "FastAPI", "React", "Firebase", "LLaMA 3", "Gemini API"],
-    "image": "projects/project2.png"
-  },
-  {
     "category": "FinTech AI / Credit Risk Analytics",
     "title": "Credit Risk Compass – AI Risk Analysis",
     "challenge": "Financial institutions need fast, reliable creditworthiness assessment. Traditional methods are slow, less interactive, and hard for non-technical users to interpret.",
