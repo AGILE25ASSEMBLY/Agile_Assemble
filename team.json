@@ -71,10 +71,10 @@
   },
   {
     "name": "Harish Raghavendera V",
-    "designation": "Full-Stack Developer",
-    "skills": ["React", "MySQL", "Supabase", "AntiGravity", "Java"],
-    "linkedin": "",
-    "photo": ""
+    "designation": "Creative Full-Stack Engineer",
+    "skills": ["MERN Stack", "Python", "Blender", "Power BI", "AI Chat Bot (GPT)"],
+    "linkedin": "https://www.linkedin.com/in/harish-raghavendera-0b7a702a3",
+    "photo": "photos/Harishraghavendera.jpg"
   },
   {
     "name": "Michelle Susan Ezhilarasi CS",
@@ -92,10 +92,10 @@
   },
   {
     "name": "Priyadharshini K",
-    "designation": "",
-    "skills": [],
-    "linkedin": "",
-    "photo": ""
+    "designation": "GenAI Backend Engineer",
+    "skills": ["Python", "FastAPI", "LangChain", "MongoDB Atlas", "AWS"],
+    "linkedin": "https://www.linkedin.com/in/priyadharshinikannan22",
+    "photo": "photos/Priyadharshini K.jpg"
   },
   {
     "name": "Vishwa",
@@ -125,4 +125,5 @@
     "linkedin": "https://linkedin.com/in/",
     "photo": "photos/13 Suriya.jpeg"
   }
+  
 ]
